@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color:#05b4ff;">My Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size:larger">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home" style="color:#05b4ff;">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about" style="color:#05b4ff;">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills" style="color:#05b4ff;">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects" style="color:#05b4ff;">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact" style="color:#05b4ff;">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="home" class="jumbotron fancy-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-10">
+                    <h1 class="display-3" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                        <span style="color:#05b4ff; font-size:xxx-large">Hello</span>
+                        <span style="font-size: xxx-large;"> I'm</span>
+                        <br>Karan Saini</h1>
+                    <p class="lead">Full-Stack Developer</p>
+                    <p>I am a Full Stack Web Developer who enjoys building new and cool stuff...</p>
+                    <a class="btn btn-primary btn-lg" href="#about" role="button">About Me</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="mypic.jpeg" class="img-fluid rounded" alt="Your Picture">
+                </div>
+                <div class="col-md-8">
+                    <h2 style="font-family:'Times New Roman', Times, serif; font-size:300%;color:#05b4ff;">About Me</h2>
+                    <p style="font-size:large;">I'm Karan, a 3rd-year Computer Science undergrad at KIIT University. Proficient in C++, Java, HTML, CSS, and JavaScript, I love translating ideas into code. Eager to apply my skills and gain hands-on experience, I'm actively seeking internship opportunities. Passionate about technology, I thrive in collaborative environments where innovation and problem-solving take center stage. Let's connect for exciting opportunities and discussions!</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 style="font-family:'Times New Roman', Times, serif; font-size:300%;color:#05b4ff;text-align:center;">MySkills</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                       
+                        <div class="card-body">
+                            <h5 class="card-title">HTML,CSS,and JS</h5>
+                            <p class="card-text">Proficient in building responsive websites using HTML5 and CSS3.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                       
+                        <div class="card-body">
+                            <h5 class="card-title">React.js</h5>
+                            <p class="card-text">Experience with vanilla JavaScript and modern frameworks like React.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                       
+                        <div class="card-body">
+                            <h5 class="card-title">Backend Developement</h5>
+                            <p class="card-text">Skills in server-side development using Node.js and databases like MongoDB.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 style="font-family:'Times New Roman', Times, serif; font-size:300%;color:#05b4ff;text-align:center;">Projects</h2>
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h2 class="card-title">Tax-Planner</h2>
+                    <p class="card-text"> Tax Planner is a full-stack application designed to streamline your tax preparation process.With Tax Planner, you can input your income, deductions, and credits effortlessly, and our intelligent algorithms
+                        handle the rest, ensuring accurate calculations every time. Our user-friendly interface guides you through the
+                        process step-by-step, providing clarity and peace of mind.</p>
+                        <p class="card-text">Tech Stack used: React.js, Node.js, Express.js, Mongoose, MongoDB.</p>
+                    <a href="https://celadon-cannoli-dd7fe6karansaini.netlify.app/" class="btn btn-primary">view</a>
+                </div>
+            </div>
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h2 class="card-title">Job-Portal Application</h2>
+                    <p class="card-text">Job Portal is a MERN Stack based web app which helps in streamlining the flow of job application process.This platform enables users to create profiles, upload resumes, and search for jobs based on criteria such as
+                        industry, location, and experience. Recruiters can post job listings, review applicant profiles, and communicate
+                        with potential candidates.</p>
+                        <p class="card-text">Tech Stack used: React.js, Node.js, Express.js, Mongoose, MongoDB.</p>
+                    <a href="https://busy-woolens-crab.cyclic.app/" class="btn btn-primary">view</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 style="font-family:'Times New Roman', Times, serif; font-size:300%;color:#05b4ff;text-align:center;">ContactMe!</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="text-center mt-4">
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
